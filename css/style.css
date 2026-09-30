@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #F4EFEA; /* Rich warm linen tint that complements the Espresso brown */
+    background-color: #F4EFEA;
     color: #1E293B;
 }
 
@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 18px 30px;
-    background-color: #27211E; /* Rich Warm Espresso / Deep Bronze Brown */
+    background-color: #27211E; 
     border-bottom: 3px solid #10B981;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
