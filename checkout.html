@@ -17,36 +17,36 @@
             <a href="products.html">Products</a>
             <a href="wishlist.html">Wishlist</a>
             <a href="support.html">Support</a>
-            <a href="cart.html" style="font-weight: bold; color: #10B981; margin-left: 25px;">🛒 Cart (<span id="cart-count">0</span>)</a>
+            <a href="cart.html" style="font-weight: bold; color: #059669; margin-left: 25px;">🛒 Cart (<span id="cart-count">0</span>)</a>
         </nav>
     </header>
 
     <main>
-        <h1>Checkout</h1>
+        <h1 style="color: #0F172A;">Checkout</h1>
         
         <div style="margin-top: 20px; background-color: #FFFFFF; padding: 25px; border-radius: 8px; border: 1px solid #E2E8F0; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
             <form id="checkoutForm">
-                <h2 style="margin-bottom: 15px; font-size: 18px;">Delivery Details</h2>
+                <h2 style="margin-bottom: 15px; font-size: 18px; color: #0F172A;">Delivery Details</h2>
                 <div style="margin-bottom: 15px;">
-                    <label for="fullName">Full Name *</label><br>
-                    <input type="text" id="fullName" placeholder="Enter your full name" style="padding: 8px; width: 100%; max-width: 400px; margin-top: 5px;" required>
+                    <label for="fullName" style="color: #0F172A; font-weight: bold;">Full Name *</label><br>
+                    <input type="text" id="fullName" placeholder="Enter your full name" style="padding: 8px; width: 100%; max-width: 400px; margin-top: 5px; border: 1px solid #64748B;" required>
                 </div>
                 <div style="margin-bottom: 15px;">
-                    <label for="emailAddr">Email Address *</label><br>
-                    <input type="email" id="emailAddr" placeholder="Enter your email" style="padding: 8px; width: 100%; max-width: 400px; margin-top: 5px;" required>
+                    <label for="emailAddr" style="color: #0F172A; font-weight: bold;">Email Address *</label><br>
+                    <input type="email" id="emailAddr" placeholder="Enter your email" style="padding: 8px; width: 100%; max-width: 400px; margin-top: 5px; border: 1px solid #64748B;" required>
                 </div>
                 <div style="margin-bottom: 15px;">
-                    <label for="address">Delivery Address *</label><br>
-                    <textarea id="address" placeholder="Enter full address" style="padding: 8px; width: 100%; max-width: 400px; height: 80px; margin-top: 5px;" required></textarea>
+                    <label for="address" style="color: #0F172A; font-weight: bold;">Delivery Address *</label><br>
+                    <textarea id="address" placeholder="Enter full address" style="padding: 8px; width: 100%; max-width: 400px; height: 80px; margin-top: 5px; border: 1px solid #64748B;" required></textarea>
                 </div>
 
-                <h3 style="margin: 20px 0 10px 0; font-size: 18px;">Payment Method</h3>
-                <div style="margin-bottom: 15px;">
+                <h3 style="margin: 20px 0 10px 0; font-size: 18px; color: #0F172A;">Payment Method</h3>
+                <div style="margin-bottom: 15px; color: #334155;">
                     <label><input type="radio" name="payment" checked> Credit/Debit Card</label><br>
                     <label><input type="radio" name="payment"> Cash on Delivery</label>
                 </div>
 
-                <button type="submit" style="background: #10B981; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold;">Confirm & Place Order</button>
+                <button type="submit" style="background: #059669; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; font-weight: bold;">Confirm & Place Order</button>
             </form>
             <p id="checkoutMessage" style="margin-top: 15px; font-weight: bold;"></p>
         </div>
